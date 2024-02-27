@@ -62,7 +62,7 @@ code {
   @apply opacity-0 scale-0;
 }
 
-#tsparticles {
+/* #tsparticles {
   position: fixed !important;
   z-index: -1 !important;
-}
+} */
