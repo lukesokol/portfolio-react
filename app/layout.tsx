@@ -31,16 +31,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [init, setInit] = useState(false);
-
-  useEffect(() => {
-    initParticlesEngine(async (engine) => {
-      await loadFull(engine);
-    }).then(() => {
-      setInit(true);
-    });
-  }, []);
-
   return (
     <html lang="en" className="!scroll-smooth">
       <body
