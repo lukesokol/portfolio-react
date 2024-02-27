@@ -58,7 +58,7 @@ export default function Contact() {
           placeholder="Your email"
         />
         <textarea
-          className="h-52 mb-4 !rounded-b-lg !round-t-none borderBlack p-4 focus:outline-slate-400 dark:bg-slate-800 dark:border-slate-700 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none dark:placeholder-slate-500"
+          className="h-52 mb-4 !rounded-b-lg !rounded-t-none borderBlack p-4 focus:outline-slate-400 dark:bg-slate-800 dark:border-slate-700 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none dark:placeholder-slate-500"
           name="message"
           required
           maxLength={5000}
