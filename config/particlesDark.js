@@ -1,9 +1,6 @@
 const particlesDark = {
   autoPlay: true,
   background: {
-    color: {
-      value: "",
-    },
     image: "",
     position: "",
     repeat: "",

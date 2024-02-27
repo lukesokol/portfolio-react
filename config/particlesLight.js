@@ -1,9 +1,6 @@
 const particlesLight = {
   autoPlay: true,
   background: {
-    color: {
-      value: "",
-    },
     image: "",
     position: "",
     repeat: "",

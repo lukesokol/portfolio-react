@@ -64,5 +64,6 @@ code {
 
 #tsparticles {
   position: fixed !important;
+  background-color: transparent !important;
   z-index: -1 !important;
 }
