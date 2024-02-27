@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${firaCode.variable} !bg-slate-50 text-slate-950 relative pt-28 sm:pt-36 !dark:bg-slate-900 dark:text-slate-50 dark:text-opacity-90`}
+        className={`${firaCode.variable} bg-slate-50 text-slate-950 relative pt-28 sm:pt-36 dark:bg-slate-900 dark:text-slate-50 dark:text-opacity-90`}
       >
         <ThemeContextProvider>
           <ParticlesBackground />
