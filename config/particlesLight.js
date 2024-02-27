@@ -1,12 +1,6 @@
 const particlesLight = {
   autoPlay: true,
-  background: {
-    image: "",
-    position: "",
-    repeat: "",
-    size: "",
-    opacity: 1,
-  },
+  background: {},
   backgroundMask: {
     composite: "destination-out",
     cover: {
