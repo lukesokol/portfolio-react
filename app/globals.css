@@ -61,3 +61,8 @@ code {
 .theme-switcher[aria-checked="true"] .light-sun {
   @apply opacity-0 scale-0;
 }
+
+#tsparticles {
+  position: fixed !important;
+  z-index: -1 !important;
+}

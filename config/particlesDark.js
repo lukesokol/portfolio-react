@@ -1,4 +1,4 @@
-const particlesConfig = {
+const particlesDark = {
   autoPlay: true,
   background: {
     color: {
@@ -55,7 +55,7 @@ const particlesConfig = {
         quantity: 5,
         particles: {
           color: {
-            value: "#06B6D4",
+            value: "#075985",
             animation: {
               enable: true,
               speed: 400,
@@ -207,7 +207,7 @@ const particlesConfig = {
       },
     },
     color: {
-      value: "#06B6D4",
+      value: "#075985",
       animation: {
         h: {
           count: 0,
@@ -529,4 +529,4 @@ const particlesConfig = {
   },
 };
 
-export default particlesConfig;
+export default particlesDark;
