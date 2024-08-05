@@ -14,7 +14,7 @@ import { loadFull } from "tsparticles";
 import particlesConfig from "../config/particles-config";
 import { ISourceOptions } from "@tsparticles/engine";
 
-//👇 Configure our font object
+//👇 Configure font object
 const firaCode = Fira_Code({
   subsets: ["latin"],
   display: "swap",

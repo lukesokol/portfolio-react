@@ -5,6 +5,13 @@ import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import { Metadata } from "next";
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Portfolio - Łukasz Sokołowski",
+  description: "Hope you find something interesting here ☕",
+};
 
 export default function Home() {
   return (
